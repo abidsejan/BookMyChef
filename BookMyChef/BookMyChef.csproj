@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BookMyChef</RootNamespace>
+    <AssemblyName>BookMyChef</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminAnalyticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAnalyticsForm.Designer.cs">
+      <DependentUpon>AdminAnalyticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminControlForm.Designer.cs">
+      <DependentUpon>AdminControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererCreateMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererCreateMenuForm.Designer.cs">
+      <DependentUpon>CatererCreateMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererForm.Designer.cs">
+      <DependentUpon>CatererForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererHistoryForm.Designer.cs">
+      <DependentUpon>CatererHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererHomeForm.Designer.cs">
+      <DependentUpon>CatererHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererProfileForm.Designer.cs">
+      <DependentUpon>CatererProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererRequestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererRequestsForm.Designer.cs">
+      <DependentUpon>CatererRequestsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatererViewMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatererViewMenuForm.Designer.cs">
+      <DependentUpon>CatererViewMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefProfileForm.Designer.cs">
+      <DependentUpon>ChefProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefCreateProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefCreateProfileForm.Designer.cs">
+      <DependentUpon>ChefCreateProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefForm.Designer.cs">
+      <DependentUpon>ChefForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefHistoryForm.Designer.cs">
+      <DependentUpon>ChefHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefHomeForm.Designer.cs">
+      <DependentUpon>ChefHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefRequestsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefRequestsForm.Designer.cs">
+      <DependentUpon>ChefRequestsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChefShowDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChefShowDetailsForm.Designer.cs">
+      <DependentUpon>ChefShowDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientBookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientBookingForm.Designer.cs">
+      <DependentUpon>ClientBookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientCatererConfirmBookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientCatererConfirmBookingForm.Designer.cs">
+      <DependentUpon>ClientCatererConfirmBookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientCatererForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientCatererForm.Designer.cs">
+      <DependentUpon>ClientCatererForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientConfirmBookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientConfirmBookingForm.Designer.cs">
+      <DependentUpon>ClientConfirmBookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientEventConfirmBookingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientEventConfirmBookingForm.Designer.cs">
+      <DependentUpon>ClientEventConfirmBookingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientEventForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientEventForm.Designer.cs">
+      <DependentUpon>ClientEventForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientHistoryForm.Designer.cs">
+      <DependentUpon>ClientHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientHomeForm.Designer.cs">
+      <DependentUpon>ClientHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientPrivateChefForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientPrivateChefForm.Designer.cs">
+      <DependentUpon>ClientPrivateChefForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyCreatePackageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyCreatePackageForm.Designer.cs">
+      <DependentUpon>EventAgencyCreatePackageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyHistoryForm.Designer.cs">
+      <DependentUpon>EventAgencyHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyHomeForm.Designer.cs">
+      <DependentUpon>EventAgencyHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyProfileForm.Designer.cs">
+      <DependentUpon>EventAgencyProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyRequestForm.Designer.cs">
+      <DependentUpon>EventAgencyRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyViewPackageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyViewPackageForm.Designer.cs">
+      <DependentUpon>EventAgencyViewPackageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPasswordForm.Designer.cs">
+      <DependentUpon>ForgotPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentForm.Designer.cs">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientProfileForm.Designer.cs">
+      <DependentUpon>ClientProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventAgencyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventAgencyForm.Designer.cs">
+      <DependentUpon>EventAgencyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignInForm.Designer.cs">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignupForm.Designer.cs">
+      <DependentUpon>SignupForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminAnalyticsForm.resx">
+      <DependentUpon>AdminAnalyticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminControlForm.resx">
+      <DependentUpon>AdminControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererCreateMenuForm.resx">
+      <DependentUpon>CatererCreateMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererForm.resx">
+      <DependentUpon>CatererForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererHistoryForm.resx">
+      <DependentUpon>CatererHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererHomeForm.resx">
+      <DependentUpon>CatererHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererProfileForm.resx">
+      <DependentUpon>CatererProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererRequestsForm.resx">
+      <DependentUpon>CatererRequestsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatererViewMenuForm.resx">
+      <DependentUpon>CatererViewMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefProfileForm.resx">
+      <DependentUpon>ChefProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefCreateProfileForm.resx">
+      <DependentUpon>ChefCreateProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefForm.resx">
+      <DependentUpon>ChefForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefHistoryForm.resx">
+      <DependentUpon>ChefHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefHomeForm.resx">
+      <DependentUpon>ChefHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefRequestsForm.resx">
+      <DependentUpon>ChefRequestsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChefShowDetailsForm.resx">
+      <DependentUpon>ChefShowDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientBookingForm.resx">
+      <DependentUpon>ClientBookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientCatererConfirmBookingForm.resx">
+      <DependentUpon>ClientCatererConfirmBookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientCatererForm.resx">
+      <DependentUpon>ClientCatererForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientConfirmBookingForm.resx">
+      <DependentUpon>ClientConfirmBookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientEventConfirmBookingForm.resx">
+      <DependentUpon>ClientEventConfirmBookingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientEventForm.resx">
+      <DependentUpon>ClientEventForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientHistoryForm.resx">
+      <DependentUpon>ClientHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientHomeForm.resx">
+      <DependentUpon>ClientHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientPrivateChefForm.resx">
+      <DependentUpon>ClientPrivateChefForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyCreatePackageForm.resx">
+      <DependentUpon>EventAgencyCreatePackageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyHistoryForm.resx">
+      <DependentUpon>EventAgencyHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyHomeForm.resx">
+      <DependentUpon>EventAgencyHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyProfileForm.resx">
+      <DependentUpon>EventAgencyProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyRequestForm.resx">
+      <DependentUpon>EventAgencyRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyViewPackageForm.resx">
+      <DependentUpon>EventAgencyViewPackageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPasswordForm.resx">
+      <DependentUpon>ForgotPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentForm.resx">
+      <DependentUpon>PaymentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientProfileForm.resx">
+      <DependentUpon>ClientProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventAgencyForm.resx">
+      <DependentUpon>EventAgencyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignInForm.resx">
+      <DependentUpon>SignInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SignupForm.resx">
+      <DependentUpon>SignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogInView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClientHomepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChefHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Catering.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Event.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookchef.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

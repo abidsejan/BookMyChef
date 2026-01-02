@@ -1,0 +1,140 @@
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace BookMyChef
+{
+    public partial class CatererViewMenuForm : Form
+    {
+        string username;
+
+        string connectionString =
+            "data source=NISHAD\\SQLEXPRESS; database=BookMyChef; integrated security=SSPI";
+
+        public CatererViewMenuForm(string userName)
+        {
+            this.username = userName;
+            InitializeComponent();
+            LoadMenu();
+        }
+
+        
+        private void LoadMenu()
+        {
+            string query = @"
+                SELECT *
+                FROM CatererMenu
+                WHERE CatererId = (
+                    SELECT CatererId
+                    FROM Caterer
+                    WHERE UserName = @UserName
+                )";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(query, con))
+            {
+                cmd.Parameters.AddWithValue("@UserName", username);
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                dataGridView1.DataSource = dt;
+
+               
+                if (dataGridView1.Columns.Contains("MenuId"))
+                    dataGridView1.Columns["MenuId"].Visible = false;
+            }
+        }
+
+        
+        private void AddButton_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Please select a menu to delete.",
+                    "Selection Required",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            int menuId = Convert.ToInt32(
+                dataGridView1.SelectedRows[0].Cells["MenuId"].Value
+            );
+
+            DialogResult confirm = MessageBox.Show(
+                "Are you sure you want to delete this menu?",
+                "Confirm Delete",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning
+            );
+
+            if (confirm != DialogResult.Yes)
+                return;
+
+            string deleteQuery = "DELETE FROM CatererMenu WHERE MenuId = @MenuId";
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            using (SqlCommand cmd = new SqlCommand(deleteQuery, con))
+            {
+                cmd.Parameters.AddWithValue("@MenuId", menuId);
+                con.Open();
+
+                int rows = cmd.ExecuteNonQuery();
+
+                if (rows > 0)
+                {
+                    MessageBox.Show("Menu deleted successfully.",
+                        "Success",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
+
+                    LoadMenu(); 
+                }
+                else
+                {
+                    MessageBox.Show("Failed to delete menu.",
+                        "Error",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                }
+            }
+        }
+
+      
+        private void Home_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CatererHomeForm(username).Show();
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CatererHomeForm(username).Show();
+        }
+
+        private void Requests_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CatererRequestsForm(username).Show();
+        }
+
+        private void History_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CatererHistoryForm(username).Show();
+        }
+
+        private void Profile_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new CatererProfileForm(username).Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e) { }
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
+    }
+}

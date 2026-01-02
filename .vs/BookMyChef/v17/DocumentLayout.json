@@ -1,0 +1,784 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BookMyChef\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\forgotpasswordform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\paymentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyviewpackageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyviewpackageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyrequestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyrequestform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\eventagencycreatepackageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\eventagencycreatepackageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientprivatechefform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientprivatechefform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clienthomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clienthomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clienthistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clienthistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clienteventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clienteventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clienteventconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clienteventconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientcatererform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientcatererform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientcatererconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientcatererconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientcatererconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientcatererconfirmbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\clientbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\clientbookingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefshowdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefshowdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\chefcreateprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\chefcreateprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererviewmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererviewmenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererrequestsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\catererform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\catererform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\caterercreatemenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\caterercreatemenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\admincontrolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\admincontrolform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|d:\\bookmychef\\bookmychef\\adminanalyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C74D274-BF13-4193-823B-A0B5ACEB3F5C}|BookMyChef\\BookMyChef.csproj|solutionrelative:bookmychef\\adminanalyticsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\AdminForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\AdminForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\AdminForm.cs",
+              "RelativeToolTip": "BookMyChef\\AdminForm.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:06:47.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChefProfileForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefProfileForm.cs",
+              "RelativeToolTip": "BookMyChef\\ChefProfileForm.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAkwKEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:06:11.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventAgencyProfileForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyProfileForm.cs",
+              "RelativeToolTip": "BookMyChef\\EventAgencyProfileForm.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:05:51.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClientProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientProfileForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:48:43.084Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientProfileForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientProfileForm.cs",
+              "RelativeToolTip": "BookMyChef\\ClientProfileForm.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAwwIUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:49:10.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChefForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:41:42.586Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatererProfileForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererProfileForm.cs",
+              "RelativeToolTip": "BookMyChef\\CatererProfileForm.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAkwIoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:06:27.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\AdminForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\AdminForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\AdminForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\AdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:36:07.313Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatererProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererProfileForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:39:01.826Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignupForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\SignupForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\SignupForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\SignupForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\SignupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:32:37.917Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChefProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefProfileForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:42:09.571Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgotPasswordForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ForgotPasswordForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ForgotPasswordForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ForgotPasswordForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ForgotPasswordForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:52:07.899Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventAgencyProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyProfileForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:50:51.252Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ForgotPasswordForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ForgotPasswordForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ForgotPasswordForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ForgotPasswordForm.cs",
+              "RelativeToolTip": "BookMyChef\\ForgotPasswordForm.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T15:00:24.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignInForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\SignInForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\SignInForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\SignInForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\SignInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:22:53.447Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PaymentForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\PaymentForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\PaymentForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\PaymentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:52:16.285Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\PaymentForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\PaymentForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\PaymentForm.cs",
+              "RelativeToolTip": "BookMyChef\\PaymentForm.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswD8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:53:05.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventAgencyViewPackageForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyViewPackageForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyViewPackageForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyViewPackageForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyViewPackageForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:52:04.757Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventAgencyRequestForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyRequestForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyRequestForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyRequestForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyRequestForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:51:47.488Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EventAgencyHomeForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyHomeForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyHomeForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyHomeForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyHomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:50:48.899Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EventAgencyHistoryForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyHistoryForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyHistoryForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyHistoryForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyHistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:50:44.594Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventAgencyForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:50:42.149Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EventAgencyCreatePackageForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\EventAgencyCreatePackageForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\EventAgencyCreatePackageForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\EventAgencyCreatePackageForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\EventAgencyCreatePackageForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:49:39.414Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClientPrivateChefForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientPrivateChefForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientPrivateChefForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientPrivateChefForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientPrivateChefForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:48:37.916Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClientHomeForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientHomeForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientHomeForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientHomeForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientHomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:48:34.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ClientHistoryForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientHistoryForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientHistoryForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientHistoryForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientHistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:48:26.556Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClientEventForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientEventForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientEventForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientEventForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientEventForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:48:21.084Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClientEventConfirmBookingForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientEventConfirmBookingForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientEventConfirmBookingForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientEventConfirmBookingForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientEventConfirmBookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:47:19.108Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClientConfirmBookingForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientConfirmBookingForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientConfirmBookingForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientConfirmBookingForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientConfirmBookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:46:33.701Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClientCatererForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientCatererForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientCatererForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientCatererForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientCatererForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:46:28.866Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ClientForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:34:57.863Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ClientCatererConfirmBookingForm.cs",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientCatererConfirmBookingForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientCatererConfirmBookingForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientCatererConfirmBookingForm.cs",
+              "RelativeToolTip": "BookMyChef\\ClientCatererConfirmBookingForm.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAgwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:46:05.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ClientCatererConfirmBookingForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientCatererConfirmBookingForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientCatererConfirmBookingForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientCatererConfirmBookingForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientCatererConfirmBookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:44:57.963Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ClientBookingForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ClientBookingForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ClientBookingForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ClientBookingForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ClientBookingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:44:51.678Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ChefShowDetailsForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefShowDetailsForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefShowDetailsForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefShowDetailsForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefShowDetailsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:44:06.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ChefRequestsForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefRequestsForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefRequestsForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefRequestsForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefRequestsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:44:02.609Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ChefHomeForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefHomeForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefHomeForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefHomeForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefHomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:42:02.283Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ChefHistoryForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefHistoryForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefHistoryForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefHistoryForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefHistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:41:47.016Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ChefCreateProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\ChefCreateProfileForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\ChefCreateProfileForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\ChefCreateProfileForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\ChefCreateProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:41:28.878Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CatererViewMenuForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererViewMenuForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererViewMenuForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererViewMenuForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererViewMenuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:41:22.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CatererRequestsForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererRequestsForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererRequestsForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererRequestsForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererRequestsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:40:45.254Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CatererHomeForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererHomeForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererHomeForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererHomeForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererHomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:38:53.146Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CatererHistoryForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererHistoryForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererHistoryForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererHistoryForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererHistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:38:46.994Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CatererForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:38:42.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CatererCreateMenuForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\CatererCreateMenuForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\CatererCreateMenuForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\CatererCreateMenuForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\CatererCreateMenuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:37:32.954Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AdminControlForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\AdminControlForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\AdminControlForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\AdminControlForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\AdminControlForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:36:03.213Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AdminAnalyticsForm.cs [Design]",
+              "DocumentMoniker": "D:\\BookMyChef\\BookMyChef\\AdminAnalyticsForm.cs",
+              "RelativeDocumentMoniker": "BookMyChef\\AdminAnalyticsForm.cs",
+              "ToolTip": "D:\\BookMyChef\\BookMyChef\\AdminAnalyticsForm.cs [Design]",
+              "RelativeToolTip": "BookMyChef\\AdminAnalyticsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T14:35:51.712Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
