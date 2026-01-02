@@ -58,7 +58,7 @@ namespace BookMyChef
             string address = AddressField.Text.Trim();
             string type = Signupas.Text.Trim();
 
-            if (string.IsNullOrWhiteSpace(username) ||string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(phone) ||
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(phone) ||
                 string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(address) ||
                 string.IsNullOrWhiteSpace(type))
             {
@@ -72,6 +72,22 @@ namespace BookMyChef
                 MessageBox.Show("Phone must be a valid number.", "Validation Error",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
+            }
+
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                string checkQuery = "SELECT COUNT(*) FROM [Users] WHERE UserName = @UserName";
+                using (SqlCommand cmd = new SqlCommand(checkQuery, con))
+                {
+                    cmd.Parameters.AddWithValue("@UserName", username);
+                    int count = (int)cmd.ExecuteScalar();
+                    if (count > 0)
+                    {
+                        MessageBox.Show("Username already exist try different one");
+                        return;
+                    }
+                }
             }
 
             string query = "INSERT INTO [Users] (UserName,Phone, Password, Name, Address, Type) " +
