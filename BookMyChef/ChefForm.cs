@@ -26,6 +26,7 @@ namespace BookMyChef
 
         private void ChefForm_Load(object sender, EventArgs e)
         {
+            WelcomeLabel.Text = "Welcome, " + username;
 
         }
 

@@ -19,12 +19,11 @@ namespace BookMyChef
             InitializeComponent();
             this.username = userName;
         }
-
         private void ClientForm_Load(object sender, EventArgs e)
         {
-
+            WelcomeLabel.Text = "Welcome, " + username;
         }
-
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 

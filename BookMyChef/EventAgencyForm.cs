@@ -22,6 +22,7 @@ namespace BookMyChef
 
         private void EventAgency_Load(object sender, EventArgs e)
         {
+            WelcomeLabel.Text = "Welcome, " + username;
 
         }
 
