@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -42,12 +43,44 @@ namespace BookMyChef
             this.Hide();
             new ChefCreateProfileForm(username).Show();
         }
-         
+
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new ChefShowDetailsForm(username).Show();
+            string connectionString =
+                "data source=NISHAD\\SQLEXPRESS; database=BookMyChef; integrated security=SSPI";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string checkQuery = "SELECT COUNT(*) FROM Chef WHERE UserName = @UserName";
+
+                using (SqlCommand command = new SqlCommand(checkQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@UserName", username);
+
+                    connection.Open();
+                    int profileCount = (int)command.ExecuteScalar();
+
+                    if (profileCount == 0)
+                    {
+                        MessageBox.Show(
+                            "There is no profile. Please create a profile.",
+                            "Profile Not Found",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Warning
+                        );
+
+                        this.Hide();
+                        new ChefCreateProfileForm(username).Show();
+                    }
+                    else
+                    {
+                        this.Hide();
+                        new ChefShowDetailsForm(username).Show();
+                    }
+                }
+            }
         }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

@@ -63,36 +63,63 @@ namespace BookMyChef
                 return;
             }
 
-            string query = @"INSERT INTO Chef (UserName, Specialty, YOE, ServiceArea, Cuisines, PricePerHead) VALUES (@UserName, @Specialty, @YOE, @ServiceArea, @Cuisines, @PricePerHead)";
-
             using (SqlConnection connection = new SqlConnection(connectionString))
-            using (SqlCommand command = new SqlCommand(query, connection))
             {
-                command.Parameters.Add("@UserName", SqlDbType.NVarChar, 50).Value = username;
-                command.Parameters.Add("@Specialty", SqlDbType.NVarChar, 100).Value = specialty;
-                command.Parameters.Add("@YOE", SqlDbType.Int).Value = yoe;
-                command.Parameters.Add("@ServiceArea", SqlDbType.NVarChar, 100).Value = serviceArea;
-                command.Parameters.Add("@Cuisines", SqlDbType.NVarChar, 200).Value = cuisines;
-                command.Parameters.Add("@PricePerHead", SqlDbType.Decimal).Value = pricePerHead;
-
                 connection.Open();
-                int rowsAffected = command.ExecuteNonQuery();
 
-                if (rowsAffected > 0)
+                
+                string checkQuery = "SELECT COUNT(*) FROM Chef WHERE UserName = @UserName";
+
+                using (SqlCommand checkCommand = new SqlCommand(checkQuery, connection))
                 {
-                    MessageBox.Show("Chef profile created successfully!", "Success",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    checkCommand.Parameters.Add("@UserName", SqlDbType.NVarChar, 50).Value = username;
 
-                    this.Hide();
-                    new ChefHomeForm(username).Show();
+                    int profileCount = (int)checkCommand.ExecuteScalar();
+
+                    if (profileCount > 0)
+                    {
+                        MessageBox.Show("Cannot create more than one profile.", "Profile Exists",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                        this.Hide();
+                        new ChefHomeForm(username).Show();
+                        return;
+                    }
                 }
-                else
+
+                
+                string insertQuery = @"
+        INSERT INTO Chef (UserName, Specialty, YOE, ServiceArea, Cuisines, PricePerHead)
+        VALUES (@UserName, @Specialty, @YOE, @ServiceArea, @Cuisines, @PricePerHead)";
+
+                using (SqlCommand command = new SqlCommand(insertQuery, connection))
                 {
-                    MessageBox.Show("Failed to create profile.", "Error",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    command.Parameters.Add("@UserName", SqlDbType.NVarChar, 50).Value = username;
+                    command.Parameters.Add("@Specialty", SqlDbType.NVarChar, 100).Value = specialty;
+                    command.Parameters.Add("@YOE", SqlDbType.Int).Value = yoe;
+                    command.Parameters.Add("@ServiceArea", SqlDbType.NVarChar, 100).Value = serviceArea;
+                    command.Parameters.Add("@Cuisines", SqlDbType.NVarChar, 200).Value = cuisines;
+                    command.Parameters.Add("@PricePerHead", SqlDbType.Decimal).Value = pricePerHead;
+
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
+                    {
+                        MessageBox.Show("Chef profile created successfully!", "Success",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        this.Hide();
+                        new ChefHomeForm(username).Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Failed to create profile.", "Error",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }
+
 
         private void Home_Click(object sender, EventArgs e)
         {

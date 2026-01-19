@@ -41,7 +41,7 @@ namespace BookMyChef
                     SELECT ChefId 
                     FROM Chef
                     WHERE UserName = @ChefUserName
-                ) AND B.ServiceType = 'Private Chef'";
+                ) AND B.ServiceType = 'Private Chef' and B.BookingStatus != 'Requested'";
 
             try
             {
