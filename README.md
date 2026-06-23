@@ -92,8 +92,9 @@ git clone https://github.com/abidsejan/BookMyChef.git
 
 ## 👥 Contributors
 
-* **Mohammad Abid Hasan**
-* **Niyamul Islam Nishad**
+* **Mohammad Abid Hasan - UI Design, Sign in, Sign up, Client Forms**
+* **Niyamul Islam Nishad - Chef, Caterer, Event Agency Forms**
+* **Safayet Gazi Sopan - Admin Forms**
 
 ## 📜 License
 
